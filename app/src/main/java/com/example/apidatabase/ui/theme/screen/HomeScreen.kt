@@ -1,4 +1,4 @@
-package com.example.apidatabase.ui.theme
+package com.example.apidatabase.ui.theme.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -119,7 +119,7 @@ fun KontakCard(
                     contentDescription = null,
                 )
                 Text(
-                    text = kontak.telpon,
+                    text = kontak.noHp,
                     style = MaterialTheme.typography.titleMedium
                 )
             }
